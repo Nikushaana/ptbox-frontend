@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-import { axiosFront } from "../axios/Axios";
+import axiosFront from "../axios/Axios";
 
 export const DomainsAxiosContext = createContext(null);
 

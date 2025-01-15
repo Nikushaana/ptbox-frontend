@@ -5,9 +5,9 @@ import { LoadingButton } from "@mui/lab";
 import ScanIcon from "@mui/icons-material/Flip";
 import MyCard from "../../card/MyCard";
 import { DomainsAxiosContext } from "../../domainsData/DomainsData";
-import { axiosFront } from "../../axios/Axios";
 import { toast } from "react-toastify";
 import * as Yup from "yup";
+import axiosFront from "../../axios/Axios";
 
 export default function Home() {
   const { DomainsData, setNewRenderDomains } = useContext(DomainsAxiosContext);

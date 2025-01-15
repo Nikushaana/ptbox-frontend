@@ -2,11 +2,11 @@ import { IconButton } from "@mui/material";
 import React, { useContext, useEffect, useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import DeleteIcon from "@mui/icons-material/Delete";
-import { axiosFront } from "../axios/Axios";
 import { DomainsAxiosContext } from "../domainsData/DomainsData";
 import { toast } from "react-toastify";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import axiosFront from "../axios/Axios";
 
 export default function MyCard({ item, index }) {
   const { setNewRenderDomains, setDomainModalData } =
