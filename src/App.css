@@ -1,0 +1,45 @@
+@font-face {
+  font-family: boldfont;
+  src: url(./fonts/FiraGO-Bold.otf);
+}
+
+@font-face {
+  font-family: font;
+  src: url(././fonts/FiraGO-Regular.otf);
+}
+
+p,
+a,
+::placeholder,
+ul li,
+button {
+  font-family: font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: boldfont;
+}
+
+body.popup-open {
+  overflow:hidden;
+}
+
+.showScroll::-webkit-scrollbar {
+  width: 5px;
+ 
+}
+
+::-webkit-scrollbar-track { 
+  border-radius: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #51087E; 
+  border-radius: 10px;
+}
